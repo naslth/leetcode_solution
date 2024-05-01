@@ -1,0 +1,3 @@
+select t1.student_id, t1.student_name, t1.subject_name, t2.attended_exams from (select stu.student_id, stu.student_name, sub.subject_name from students stu join subjects sub order by stu.student_id asc, sub.subject_name) as t1 left join (
+select e1.student_id, e1.subject_name, count(e1.subject_name) as attended_exams from examinations e1 group by e1.student_id,e1.subject_name order by student_id asc, subject_name
+) as t2 on t1.student_id = t2.student_id and
