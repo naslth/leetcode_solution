@@ -1,3 +1,7 @@
+package leetcodedaily
+
+import "math"
+
 func judgeSquareSum(c int) bool {
 	max := int(math.Sqrt(float64(c)))
 	j := max

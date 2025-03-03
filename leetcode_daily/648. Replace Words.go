@@ -1,3 +1,7 @@
+package leetcodedaily
+
+import "strings"
+
 func replaceWords(dictionary []string, sentence string) string {
 	arrWord := strings.Split(sentence, " ")
 	for i := 0; i < len(arrWord); i++ {

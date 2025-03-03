@@ -1,3 +1,7 @@
+package leetcodedaily
+
+import "slices"
+
 func pivotArray(nums []int, pivot int) []int {
 	var lessArr []int
 	var greaterArr []int

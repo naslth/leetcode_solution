@@ -1,3 +1,7 @@
+package leetcodedaily
+
+import "sort"
+
 func relativeSortArray(arr1 []int, arr2 []int) []int {
 	res := []int{}
 	map1 := make(map[int]int)

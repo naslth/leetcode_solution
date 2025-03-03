@@ -1,3 +1,5 @@
+package leetcodedaily
+
 func longestPalindrome(s string) int {
 	res := 0
 	dict := make(map[string]int)

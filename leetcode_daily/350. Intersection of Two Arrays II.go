@@ -1,3 +1,5 @@
+package leetcodedaily
+
 func intersect(nums1 []int, nums2 []int) []int {
 	temp := make(map[int]int)
 	res := []int{}
