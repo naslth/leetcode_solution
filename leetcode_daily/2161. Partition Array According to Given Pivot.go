@@ -15,7 +15,6 @@ func pivotArray(nums []int, pivot int) []int {
 			equalArr = append(equalArr, nums[i])
 		}
 	}
-	res := slices.Concat(lessArr, equalArr)
-	res = slices.Concat(res, greaterArr)
+	res := slices.Concat(lessArr, equalArr, greaterArr)
 	return res
 }
