@@ -1,3 +1,5 @@
+package leetcodedaily
+
 func numberOfAlternatingGroups(colors []int, k int) int {
 	res := 0
 	group := make([]int, 0)
