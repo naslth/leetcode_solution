@@ -19,7 +19,6 @@ func numberOfAlternatingGroups(colors []int, k int) int {
 			}
 		}
 		group = append(group, linearColors[i])
-
 		if len(group) == k {
 			res++
 			group = group[1:]

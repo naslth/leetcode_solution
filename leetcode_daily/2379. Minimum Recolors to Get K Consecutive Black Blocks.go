@@ -1,3 +1,7 @@
+package leetcodedaily
+
+import "math"
+
 func minimumRecolors(blocks string, k int) int {
 	w, b := 0, 0
 	res := math.MaxInt
